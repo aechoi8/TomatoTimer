@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TomatoTime</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- normalize css -->
+    <link rel="stylesheet" href="normalize.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">TomatoTimer</h1>
+    </header>
+    <div class="container">
+      <!-- top section -->
+      <div class="section-container">
+        <button id="focus" class="btn btn-timer btn-focus">Focus</button>
+        <button id="shortbreak" class="btn btn-shortbreak">Short Break</button>
+        <button id="longbreak" class="btn btn-longbreak">Long Break</button>
+      </div>
+      <!-- time button container -->
+      <div class="time-btn-container">
+        <span id="time"></span>
+      </div>
+      <!-- bottom buttons -->
+      <div class="btn-container">
+        <button id="btn-start" class="btn show">start</button>
+        <button id="btn-pause" class="btn hide">pause</button>
+        <button id="btn-reset" class="btn hide">
+          <i class="fa-solid fa-arrow-rotate-right"></i>
+        </button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
